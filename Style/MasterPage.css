@@ -1,0 +1,194 @@
+﻿/*母版页top*/
+.swiper-container {
+    width: 1200px;
+    height: 300px;
+    line-height: 300px;
+}
+.tpri{
+     background-color:#f3f3f3;
+     width:100%;
+     height:82px;
+     border-bottom: 5px solid #cdcdcd;
+
+}
+ .logo1 {
+  width:1200px;
+  margin:0 auto;
+  height:82px;
+     line-height: 82px;
+  /*vertical-align:middle;  */
+}
+.yuxun_logo{ 
+     float:left;
+     width:200px;
+     height:70px;
+     line-height: 70px;
+     text-align:center;
+     margin:  5px 0 5px 0;
+}
+.tpri .box{
+    overflow: hidden;
+    margin-left: 200px;
+}
+.tpri .box .nav li{
+    float:left;
+    /*width:50px;*/
+    height:82px;
+    line-height: 82px;
+    text-align: center;
+    margin-left: 60px;
+}
+.tpri .box .nav li a{
+    color: #333333;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.tpri .box .nav li a:hover{
+    color: black;
+}
+.tpri .box .nav li .active{
+    color: black;
+    border-bottom: 2px solid #0071db;
+}
+.tpri .box .nav .navSpan{
+    font-size: 18px;margin: 0 10px;
+}
+
+.box v.menu_menu_m a:active { color:yellow!important;}
+#no8{
+   margin-right:0;
+}
+#imgIndex{
+   width:100%;
+   height:550px; 
+   margin:auto;
+ }
+#Div1{
+   width:100%;
+   height:530px; 
+   margin:auto;  
+}
+#posi{
+    width:100%;
+    height:20px;
+    text-align:center;
+ }
+
+#last .lastSpan{
+    color:blue;
+    cursor: pointer;
+    margin-left: 10px;
+}
+/*公司简介 */
+.yx_part_yx_part3{
+    width:100%;
+    margin:auto;
+}
+.CompanyCenter{
+    width:1100px;
+    height:450px;
+    margin:auto;
+}
+.CompanyImg{
+    width:724px;
+    height:330px;
+    float:left;
+}
+.CompanyImg img{
+    width:100%;
+    height:100%;
+}
+.Company{
+    width:1100px;
+    height:20px;
+    font-weight:900;
+    margin:auto;
+    bottom:0;
+    vertical-align:middle;
+    padding-top:20px;
+    margin-bottom:20px;
+    font-size:18px;
+}
+.CompanyText{
+    width:280px;
+    height:330px;
+    color:Gray;
+    line-height:1.5;
+    font-size:14px;
+    float:right;
+    margin-right:45px;
+}
+.intro_tittle{
+    color:Black;
+    font-weight:900;
+    text-align:center;
+}
+
+ /*母版页foot  */
+    .footer-wrap{
+        width: 100%;
+        height: 240px;
+        background: #f3f3f3;
+        border-top:2px solid #cdcdcd ;
+        color: #333;
+    }
+    .footer-wrap .footer-content{
+        width: 1180px;
+        height: 240px;
+        margin: 0 auto;
+    }
+    .footer-wrap .footer-content .nav{
+        padding: 30px 0;
+        border-bottom: 1px solid #cdcdcd;
+}
+.footer-wrap .footer-content .nav p{
+    text-align: center;
+}
+.footer-wrap .footer-content .nav a{
+    color: #333;
+    display: inline-block;
+    /*width: 60px;*/
+    padding: 0 10px;
+}
+.footer-wrap .footer-content .nav a:hover{
+    text-decoration: underline;
+}
+.footer-content .footer-bottom{
+    overflow: hidden;
+}
+.footer-content .footer-bottom img{
+    float: left;
+    margin-top: 10px;
+}
+.footer-bottom .footer-bottom-text{
+    float: left;
+    margin: 63px 0 0 40px;
+}
+
+
+
+
+
+
+
+ /*图片轮播*/
+         /*reset*/
+body{font-family: "microsoft yahei","微软雅黑";}
+body,ul,li,ol,img{margin: 0;padding: 0;}
+li{list-style: none;}
+
+body{height: auto;margin: 0 auto;}
+/*body>h5{margin-left: 20px;}*/
+/*body>div{margin-left: 20px;}*/
+
+/*example*/
+.example{ }
+.example ol{position:relative;width: 80px;height: 20px;top:-30px;left:60px; margin:auto;}
+.example ol li{float:left;width: 10px;height: 10px;margin: 5px;background: #fff;}
+.example ol li.seleted{background: #1AA4CA;}
+/*渐隐*/
+.luara-{position:relative;padding:0;overflow: hidden;}
+.luara- ul{padding: inherit;margin: 0;}
+.luara- ul li{display: none;padding: inherit;margin: inherit;list-style: none;}
+.luara- ul li:first-child{display:block;}
+.luara- ul li img{width: inherit;height: inherit;}

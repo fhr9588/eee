@@ -1,0 +1,41 @@
+.Dispute-wrap{
+    width: 1100px;
+    margin: 0 auto;
+    /*height: 1000px;*/
+    background: #eef3fa;
+}
+.Dispute-wrap .Dispute-main{
+    padding: 43px 56px 80px 64px;
+    /*font-size: 12px;*/
+    font-family: 宋体;
+}
+.Dispute-main .Dispute-title{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 15px
+}
+.Dispute-group .Dispute-text{
+    padding:14px 0 40px 0;
+    text-align: left;
+}
+.Dispute-text  .middleText{
+    font-size: 18px;
+}
+.Dispute-group .Dispute-text p{
+    font-size: 15px;
+    font-family: 黑体;
+    line-height: 25px;
+    margin: 10px 0;
+}
+.Dispute-group .Dispute-text .indent{
+    margin-bottom: 3px;
+    text-indent: 2em;
+}
+.imgGroup{
+    margin-bottom: 40px;
+}
+.imgGroup img{
+    margin-bottom: 40px;
+}
+

@@ -1,0 +1,104 @@
+﻿body,h1,h2,h3,h4,h5,h6,div,hr,p,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font-family:"microsoft yahei";font-size:14px;}
+body{_overflow:auto;_height:100%;margin:0 auto;overflow-x:hidden;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol,li,dl,dt,dd{list-style:none;}
+img{border:0;}
+em{font-style:normal;}
+div{display:block;}
+button,input,select,textarea{vertical-align:middle;cursor:pointer;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+.clearfix {*zoom: 1}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clear{clear: both;}
+.fl{float:left;}
+.fr{float:right;}
+*{font-family: "Microsoft YaHei", Helvetica, sans-serif;}
+
+
+.jobs-lunbo-wrap{width:100%;height:487px;overflow:hidden;position:relative;max-width:1200px;}
+.jobs-lunbo{width:100%;height:487px;overflow:hidden;}
+.jobs-content{width:100%;height:361px;}
+#leftBtn{position:absolute;left:0;top:162px;background:url(../images/joinus-bannerleft.png) no-repeat;width:72px;height:149px;border:0;outline:none;}
+#rightBtn{position:absolute;right:0;top:162px;background:url(../images/joinus-bannerright.png) no-repeat;width:72px;height:149px;border:0;outline:none;}
+
+.joinus-jobs{width:80%;margin:0 auto;position:relative;max-width:1200px}
+.jobs-content{padding:105px 0 54px 0;}
+.jobs-content .left li{position:relative;color:#257bb1;}
+.jobs-content .left h2{font-size:48px;margin-bottom:14px;}
+.jobs-content .left em{color:#999;font-size:30px;position:absolute;left:158px;top:22px;}
+.jobs-content .left .tit{font-size:60px;color:#333;margin-bottom:54px;}
+.jobs-content .left .money{font-size:30px;margin-bottom:52px;}
+.jobs-content .left .btn{width:225px;height:57px;display:inline-block;text-align:center;line-height:57px;color:#fff;font-size:24px;background:#257bb1;}
+.jobs-content .left .btn a{display:inline-block;color:#fff;}
+.jobs-content .left .btn:hover{background:#1C6A9B;}
+
+
+.joinus-content{width:1200px;margin:0 auto;}
+.joinus-list{padding:52px 0;border-top:1px solid #cdcdcd;font-size:18px;}
+.joinus-list li{width:146px;height:146px;border:1px solid #257bb1;border-radius:73px;text-align:center;line-height:146px;margin-right:8%;cursor:pointer;}
+.joinus-list .no-margin-r{margin-right:0;}
+.joinus-list .color1:hover,.joinus-list .color1.job-current{background:#81dadb;border:1px solid #81dadb;color:#fff;}
+.joinus-list .color2:hover,.joinus-list .color2.job-current{background:#f5ae14;border:1px solid #f5ae14;color:#fff;}
+.joinus-list .color3:hover,.joinus-list .color3.job-current{background:#90dc84;border:1px solid #90dc84;color:#fff;}
+.joinus-list .color4:hover,.joinus-list .color4.job-current{background:#f68a97;border:1px solid #f68a97;color:#fff;}
+.joinus-list .color5:hover,.joinus-list .color5.job-current{background:#4fb1ee;border:1px solid #4fb1ee;color:#fff;}
+
+.joinus-content{margin-bottom:52px;border-bottom:1px solid #e3e3e3;}
+.joinus-content .content{position:relative;}
+.joinus-content .wap-title{display:none;}
+.joinus-content .title{height:102px;line-height:102px;text-align:left;border-top: 1px solid #e3e3e3;padding:0 20px 0 26px;color:#333;font-size:18px;}
+.joinus-content .title .name{width:280px;}
+.joinus-content .title .type{width:288px;}
+.joinus-content .title .number{width:210px;}
+.joinus-content .title .data{width:342px;}
+.joinus-content .show1{background:url(../Images/Recruit/jobs-show.png) no-repeat center top;width:28px;height:28px;display:inline-block;position:absolute;right:26px;top:36px;cursor:pointer;}
+.joinus-content .current .show1{background-position:center bottom;width:28px;height:7px;top:44px;}
+.joinus-content .current .title{background:#f9f9f9;}
+.joinus-content .details{padding:0 20px 20px 26px;background:#f9f9f9;position: relative;}
+.joinus-content .details li{line-height:32px;color:#929292;}
+.joinus-content .details h3{color: #666;font-size: 14px;margin: 14px 0 10px;}
+.joinus-content .details .details-btn{width:106px;height:32px;line-height:32px;text-align:center;color:#fff;background:#0088cc;display:inline-block;position:absolute;right:22px;top:3px;border-radius:2px;}
+.joinus-content .details .details-btn:hover{background:#1C6A9B;}
+.details{display:none;}
+.joinus-content div.current .details{display:block;}
+.joinus-wap-tit{display:none;}
+
+
+
+@charset "utf-8";
+*{ margin: 0; padding: 0;}
+
+ol,ul,li{
+	list-style: none;
+	outline:none;
+	list-style-type:none;
+}
+
+a, a:link, a:active, a:visited, a:hover {
+	text-decoration: none;
+	outline: none;
+	}
+input[type='buttom']{cursor: pointer;}
+input, select {vertical-align: middle; outline:none;}
+
+body {
+	color: #333;
+	font-family: "Microsoft YaHei" , sans-serif;
+	font-size: 12px;
+	width: 100%;
+ 	min-width: 1200px;
+	}
+
+table,tr,td,th{border: none;border-collapse:  collapse;}	
+
+.f_r{float: right;}	
+.f_l{float: left;}	
+
+.container {
+	margin: 0 auto;
+    max-width: 1000px;
+    overflow: hidden;
+}	
+

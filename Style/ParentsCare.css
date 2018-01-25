@@ -1,0 +1,86 @@
+.ParentsCare-main .ParentsCare-img img{
+    width: 100%;
+    height: 400px;
+}
+.ParentsCare-main .bigBackground{
+    background: rgb(60,131,185);
+}
+.ParentsCare-main .ParentsCare-content{
+    padding-top: 50px;
+    width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.ParentsCare-main .ParentsCare-content .ParentsCare-left{
+    float: left;
+    width: 188px;
+    height: 1688px;
+    color: rgb(252, 202, 3);
+    font-size: 12px;
+    font-family: 宋体;
+    background: rgb(55, 64, 70);
+    padding: 48px 24px 0px;
+}
+.ParentsCare-left ul .row h3{
+    /*text-align: center;*/
+    font-size: 18px;
+    border-bottom: 1px solid #21272a;
+    padding-bottom: 10px
+}
+.ParentsCare-left ul .row .list{
+    padding-top: 10px;
+    border-top: 1px solid #4b5359;
+    color:#919aa1;
+}
+.ParentsCare-left ul .row .list p{
+    line-height: 30px;
+}
+.ParentsCare-left ul .row .listItem{
+    padding-top: 10px;
+    border-top: 1px solid #4b5359;
+    margin-bottom: 20px
+}
+.ParentsCare-left ul .row .listItem p{
+    color: #919aa1;
+    line-height: 20px;
+}
+.ParentsCare-left ul .row .list .downloadNBtn{
+    display: block;
+    color: black;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ffcc00;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.ParentsCare-main .ParentsCare-content .ParentsCare-right{
+    float: left;
+    padding: 43px 56px 142px 64px;
+    background: #fff;
+    height: 1551px;
+}
+.ParentsCare-right .parentscare-right-group{
+    text-align: center;
+    width: 740px;
+}
+.parentscare-right-group .parentscare-right-list-title{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 15px
+}
+.parentscare-right-group .ParentsCare-right-list-text{
+    padding:24px 0 40px 0;
+    text-align: left;
+}
+.parentscare-right-group .ParentsCare-right-list-text p{
+    font-size: 15px;
+    color: rgb(124, 124, 124);
+    font-family: 黑体;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
