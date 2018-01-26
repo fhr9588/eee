@@ -38,4 +38,18 @@
 .imgGroup img{
     margin-bottom: 40px;
 }
+.lrImg{
+    text-align: center;padding: 0 110px
+}
 
+.lrImg .imgRadius{
+    border-radius: 10px;
+}
+.download .download-title{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.download .download-lacation{
+    text-decoration: underline;
+    font-size: 14px;
+}
